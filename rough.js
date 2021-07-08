@@ -4,7 +4,7 @@ if (arr == ""){
 }
 else{
     const val = arr.map(function(x){
-        return x;
+        return `<li> ${x} </li>`;
     })
     return val;
 }
